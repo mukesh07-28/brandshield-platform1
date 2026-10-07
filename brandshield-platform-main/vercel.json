@@ -1,0 +1,10 @@
+{
+  "buildCommand": "npm --prefix frontend run build",
+  "installCommand": "npm --prefix frontend ci",
+  "outputDirectory": "frontend/dist",
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.12"
+    }
+  }
+}
